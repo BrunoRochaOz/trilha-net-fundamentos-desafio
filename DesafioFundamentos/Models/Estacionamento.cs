@@ -44,10 +44,6 @@ namespace DesafioFundamentos.Models
                 Console.WriteLine("Desculpe, esse veículo não está estacionado aqui. Confira se digitou a placa corretamente");
             }
             
-            string [] carros = new string [] {""};
-            veiculos.AddRange(carros);
-            Console.WriteLine("Temos mais " + veiculos.Count() + " veículos estacionados !");
-
         }
 
         public void ListarVeiculos()
